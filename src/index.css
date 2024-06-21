@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.cards{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(230, 122, 122);
+}
+.cardss{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    /* position: relative; */
+    /* align-items: center; */
+    margin-top: 30px;
+    width: 50%;
+    height: 500px;
+    
+    
+    
+}
+.Card1{
+    width: 50%;
+    background-color: rgb(172, 88, 172);
+    justify-content: space-around;
+    align-items: center ;
+    position: relative;
+    left: 30%;
+    height: 450px;
+    top: 30px;
+    border-radius: 10%;
+    /* flex-direction: row-reverse; */
+    
+    /* display: inline-flex; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Card1 span{
+    background-color:transparent;
+    position: absolute;
+    /* left: 10px; */
+    top: 310px;
+    right: 100px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+}
+
+.cardimg{
+    position: relative;
+    left: 20%;
+    height: 300px;
+    top: 10px;
+    width: 60%;
+}
+
+
+.cardname{
+    position: relative;
+    left: 30%;
+    top: 10px;
+    color: aliceblue;
+}
+.cardbutton{
+    position: relative;
+    left: 30%;
+
+}
+
+.cardbutton button{
+    background-color: brown;
+    width: 30%;
+    height: 6%;
+    border: 1px solid black;
 }
