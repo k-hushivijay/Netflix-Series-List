@@ -1,0 +1,59 @@
+.CARS {
+    background-color: transparent;
+    height: 500px;
+    width: 50%;
+    display: inline-table;
+    color: rgb(80, 19, 80);
+    border-radius: 15px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    overflow: hidden; /* Ensures content stays within rounded corners */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.CARS:hover {
+    transform: scale(1.05); /* Slightly enlarges the element on hover */
+}
+
+.CARS img {
+    position: relative;
+    left: 20%;
+    border-radius: 10px; /* Adds rounded corners to the images */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.CARS img:hover {
+    transform: scale(1.1); /* Slightly enlarges the image on hover */
+}
+
+.CARS h1, .CARS h2 {
+    position: relative;
+    left: 20%;
+    margin: 10px 0; /* Adds some space around headings */
+}
+
+.CARS1 {
+    height: 400px;
+    width: 80%;
+    background-color: antiquewhite;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    border-radius: 15px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: border 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+    overflow: hidden; /* Ensures content stays within rounded corners */
+}
+
+.CARS1 img {
+    border-radius: 10px; /* Adds rounded corners to the images */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.CARS1:hover {
+    border: 3px solid black;
+    transform: scale(1.02); /* Slightly enlarges the element on hover */
+}
+
+.CARS1 img:hover {
+    transform: scale(1.1); /* Slightly enlarges the image on hover */
+}
